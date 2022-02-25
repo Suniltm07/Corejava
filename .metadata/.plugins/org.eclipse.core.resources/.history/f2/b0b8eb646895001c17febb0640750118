@@ -1,0 +1,22 @@
+package objects;
+
+import java.text.ParseException;
+
+import objects.Employee;
+public class EmployeeMain
+{
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+         Employee e1= new Employee();
+         try {
+			e1.readEmployeeDetails();
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+         e1.displayEmployeeDetails();
+	}
+
+}

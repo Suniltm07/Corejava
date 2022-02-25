@@ -1,0 +1,25 @@
+package example;
+
+public class Program2 {
+
+	public static void main(String[] args) 
+	{
+		int B[]= {1,2,3,4,5};
+		int sum=2;
+		boolean Array =false;
+		for(int element:B)
+		{
+			if(sum==element)
+			{
+				System.out.println("the is their");
+				break;
+			}
+			else
+			{
+				System.out.println("not their");
+			}
+		}
+
+	}
+
+}
